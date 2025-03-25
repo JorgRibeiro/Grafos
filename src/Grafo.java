@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Matriz {
+public class Grafo {
 
     public int vertices_total;
     public int arestas_total;
@@ -8,7 +8,7 @@ public class Matriz {
     public List<Aresta> arestas;
     public List<Vertice> vertices;
 
-    public Matriz(int v, int a, List<Aresta> listaArestas, List<Vertice> Listavertices) {
+    public Grafo(int v, int a, List<Aresta> listaArestas, List<Vertice> Listavertices) {
         this.vertices_total = v;
         this.arestas_total = a;
         this.matriz = new int[v][v];

@@ -28,7 +28,7 @@ public class App {
         listaVertices.add(C);
         listaVertices.add(D);
 
-        Matriz matriz = new Matriz(4, 2, listaArestas, listaVertices);
+        Grafo matriz = new Grafo(4, 2, listaArestas, listaVertices);
 
         matriz.ImprimirMatriz();
 
