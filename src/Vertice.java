@@ -5,15 +5,13 @@ public class Vertice {
     public String v;
     public List<Vertice> Adjacentes;
 
-   public Vertice(String V){
-    this.v = V;
-    this.Adjacentes = new ArrayList<>();
-}
+    public Vertice(String V) {
+        this.v = V;
+        this.Adjacentes = new ArrayList<>();
+    }
 
-public void adicionar_adj(Vertice novo){
-    Adjacentes.add(novo);
-}
+    public void adicionar_adj(Vertice novo) {
+        Adjacentes.add(novo);
+    }
 
-
-    
 }
