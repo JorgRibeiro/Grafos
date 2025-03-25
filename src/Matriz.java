@@ -23,7 +23,7 @@ public class Matriz {
 
         for (Vertice vertice_a : vertices) {
             for (Vertice vertice_b : vertices) {
-                if (vertice_a.v.equals(vertice_b.v)) {
+                if (vertice_a.valor.equals(vertice_b.valor)) {
                     matriz[linha][coluna] = 1;
                 } else if (vertice_a.Adjacentes.contains(vertice_b)) {
                     matriz[linha][coluna] = 1;

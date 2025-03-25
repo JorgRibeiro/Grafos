@@ -6,7 +6,7 @@ public class Aresta {
     public Aresta(Vertice A, Vertice B) {
         this.primeiro = A;
         this.segundo = B;
-        this.aresta = primeiro.v + segundo.v;
+        this.aresta = primeiro.valor + segundo.valor;
         primeiro.adicionar_adj(segundo);
         segundo.adicionar_adj(primeiro);
     }
